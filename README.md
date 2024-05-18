@@ -13,9 +13,12 @@ Simple todo list web application.
 ![Mysql](https://skillicons.dev/icons?i=sequelize)
 
 ## **Setup**
+```
+git clone https://github.com/NoelEmaas/task-manager.git
+cd task-manager
+```
 Setup server:
 ```
-https://gitlab.com/savorite-assessment/server.git
 cd server
 npm install
 cat sample.env > .env # Then modify the values in the .env
@@ -24,7 +27,6 @@ npm run dev
 
 Setup client:
 ```
-git clone https://gitlab.com/savorite-assessment/client.git
 cd client
 npm install
 npm run dev
